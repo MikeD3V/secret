@@ -26,7 +26,7 @@ wrong2.onclick = function(){
     result.textContent = 'That is wrong'
     result.style.color = 'red';
     nuh.play();
-    audio.pasue();
+    audio.pause();
     audio.currentTime = 0;
 }
 wrong3.onclick = function(){
